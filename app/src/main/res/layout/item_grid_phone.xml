@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/phone_img"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:background="#2d2d2d"/>
+
+        <TextView
+            android:id="@+id/phone_name"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/asus_rog_phone_2"/>
+
+        <TextView
+            android:id="@+id/phone_details"
+            android:textColor="#2d2d2d"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:text="@string/item_detail"/>
+
+        <TextView
+            android:id="@+id/phone_price"
+            android:textColor="#2d2d2d"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/item_detail"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

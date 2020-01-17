@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Phone</string>
+    <string name="asus_rog_phone_2">ASUS ROG PHONE 2</string>
+    <string name="item_detail">Handphone Gaming pertama yang menghadirkan layar 144Hz yang akan sangat memanjakan mata anda di saat bermain game</string>
+    <string name="_80000">80000</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="_735">$735</string>
+</resources>
